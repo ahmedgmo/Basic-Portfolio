@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>Ahmed's Portfolio</title>
@@ -8,13 +9,37 @@
     </head>
     <body>
     
-        <div>
-            <h1>Ahmed Osman</h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    
-
+        <header>
+            <div class="logonavbar">
+                <h1>Ahmed Osman</h1>
+                <nav>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html">About</a></li>
+                    </ul>                  
+                </nav>
+            </div>
+        </header>
+        
+        <Section>
+            <h2>My Portfolio</h2>
+            <div class="myPort">
+                <!-- tried to build these divs to create an overlay box like in the assignment. Failed epically-->
+                <div class="container">
+                    <img src="assets/images/adult-airport.jpg" alt="Mobile Airport" class="pImages">
+                <div class="textOverlay">Adult Airport</div>
+                </div>
+                <!-- Portfolio images added and formated, but no overlay description boxes -->
+                <img src="assets/images/nature-sunset.jpg" alt="Outdoors Sunset" class="pImages">
+                <img src="assets/images/photo-camera.jpg" alt="Photography School" class="pImages">
+                <img src="assets/images/soft-drink.jpg" alt="Soft Drinks" class="pImages">
+                <img src="assets/images/sports-drone.jpg" alt="Drone View" class="pImages">
+            </div>
+        </section>
+        
+        <footer>
+            <p id="footText">Copyright©</p>
+        </footer> 
     </body>
 </html>

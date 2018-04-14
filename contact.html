@@ -8,19 +8,25 @@
     </head>
     <body>
     
-        <div>
-            <h1>Ahmed Osman</h1>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </div>
-    
-        <div>
-            <h2>Contact</h2>
+        <header>
+            <div class="logonavbar">
+                <h1>Ahmed Osman</h1>
+                <nav>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html">About</a></li>
+                    </ul>                  
+                </nav>
+            </div>
+        </header>
+        
+        <section class="contactForm">
+            <h2 id="contact">Contact</h2>
             <form action="" method="post">
     
                     <!-- Name label and input -->
-                    <label for="Name">Name</label>
+                    <label for="fullname">Name</label>
                     <input type="text" name="Name" id="Name" placeholder="John Smith" required>
                     
                     <!-- Email label and input -->
@@ -28,12 +34,15 @@
                     <input type="email" name="email" id="Email" placeholder="Email" required>
                     
                     <!-- Message label and textarea -->
-                    <label for="Message">Message</label>
+                    <label for="dmessage">Message</label>
                     <textarea name="Message" id="Message" cols="30" rows="10" required></textarea>
                     
                     <button type="submit" id="sub-btn">Submit</button>
                 </form>
-        </div>
-    
+        </section>>
+        
+        <footer>
+                <p id="footText">Copyright©</p>
+        </footer> 
     </body>
 </html>
