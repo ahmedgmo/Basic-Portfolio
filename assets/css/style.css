@@ -160,11 +160,12 @@ button[type=submit]:active {
     grid-gap: 20px;
 }
 
+/* commenting this code out. 
 .textOverlay {
     position: relative;
     background-color: #4aaaa5;
     bottom: 8px;
-    left: 50%;
+    left: 50%; */
 }
 
 /*footer styling begins here - unified*/
